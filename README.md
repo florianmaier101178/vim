@@ -7,7 +7,7 @@ Vim configuration for personal use.
 cd ~
 git clone https://github.com/florianmaier101178/vim.git
 ```
-2. link your local ~/.vimrc file to ./vimrc
+2. link your local ~/.vimrc file to ./vim/vimrc
 ``` shell
 ln -s ~/.vimrc ~/vim/vimrc
 ```
