@@ -34,4 +34,7 @@ Reload .vimrc and `:PlugInstall` to install plugins.
 
 ### installed plugins
 - paste.vim (https://github.com/enricobacis/paste.vim)
-
+``` shell
+<leader>v
+e.g. ,v
+```
