@@ -9,11 +9,11 @@ git clone https://github.com/florianmaier101178/vim.git
 ```
 2. link your local ~/.vimrc file to ./vim/vimrc
 ``` shell
-ln -s ~/.vimrc ~/vim/vimrc
+ln -s ~/vim/vimrc ~/.vimrc
 ```
 3. link your local ~/.vim directory to ./vim/vim
 ``` shell
-ln -s ~/.vim ~/vim/vim
+ln -s ~/vim/vim ~/.vim
 ```
 
 ## plugins
