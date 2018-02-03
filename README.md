@@ -3,6 +3,10 @@ Vim configuration for personal use.
 
 ## how to use this repository
 1. clone this repository into ~/vim
+``` shell
+cd ~
+git clone https://github.com/florianmaier101178/vim.git
+```
 2. link your local ~/.vimrc file to ./vimrc
 ``` shell
 ln -s ~/.vimrc ~/vim/vimrc
