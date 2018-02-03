@@ -20,7 +20,18 @@ ln -s ~/vim/vim ~/.vim
 Plugins are managed via vim-plug (https://github.com/junegunn/vim-plug).
 
 ### usage of vim-plug
+Reload .vimrc and `:PlugInstall` to install plugins.
+
+| Command                             | Description                                                        |
+| ----------------------------------- | ------------------------------------------------------------------ |
+| `PlugInstall [name ...] [#threads]` | Install plugins                                                    |
+| `PlugUpdate [name ...] [#threads]`  | Install or update plugins                                          |
+| `PlugClean[!]`                      | Remove unused directories (bang version will clean without prompt) |
+| `PlugUpgrade`                       | Upgrade vim-plug itself                                            |
+| `PlugStatus`                        | Check the status of plugins                                        |
+| `PlugDiff`                          | Examine changes from the previous update and the pending changes   |
+| `PlugSnapshot[!] [output path]`     | Generate script for restoring the current snapshot of the plugins  |
 
 ### installed plugins
-
+- paste.vim (https://github.com/enricobacis/paste.vim)
 
