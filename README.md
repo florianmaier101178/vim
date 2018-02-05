@@ -34,8 +34,6 @@ Reload .vimrc and `:PlugInstall` to install plugins.
 
 ### installed plugins
 - molokai.vim (https://github.com/tomasr/molokai)
-
-Molokai colorscheme
 - paste.vim (https://github.com/enricobacis/paste.vim)
 ``` shell
 <leader>v
