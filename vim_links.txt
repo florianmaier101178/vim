@@ -1,0 +1,8 @@
+good links for .vimrc
+#####################
+
+https://dougblack.io/words/a-good-vimrc.html
+http://stevelosh.com/blog/2010/09/coming-home-to-vim/
+https://github.com/nvie/vimrc/blob/master/vimrc
+https://github.com/amix/vimrc
+
