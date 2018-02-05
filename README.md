@@ -33,6 +33,8 @@ Reload .vimrc and `:PlugInstall` to install plugins.
 | `PlugSnapshot[!] [output path]`     | Generate script for restoring the current snapshot of the plugins  |
 
 ### installed plugins
+- molokai.vim (https://github.com/tomasr/molokai)
+Molokai colorscheme
 - paste.vim (https://github.com/enricobacis/paste.vim)
 ``` shell
 <leader>v

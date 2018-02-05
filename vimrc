@@ -11,8 +11,8 @@ set nocompatible
 " plugins managed via vim-plug
 "###############################################################################
 call plug#begin('~/.vim/plugged')
+Plug 'tomasr/molokai'
 Plug 'enricobacis/paste.vim'
-Plug 'https://github.com/tomasr/molokai'
 call plug#end()
 
 " leader key
