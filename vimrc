@@ -106,11 +106,16 @@ nnoremap <leader><space> :nohlsearch<CR>
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.exe,*.class,*.jar
 
+" netrw
+"###############################################################################
+nnoremap <leader>e :e .<CR>
+
 " CtrlP
 "###############################################################################
 " uses the wildignore setting
 map <leader>b :CtrlPBuffer<cr>
 let g:ctrlp_use_caching = 1
+let g:ctrlp_regexp = 1
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/]\.(git|hg|svn)$',

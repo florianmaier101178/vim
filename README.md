@@ -33,6 +33,12 @@ Reload .vimrc and `:PlugInstall` to install plugins.
 | `PlugSnapshot[!] [output path]`     | Generate script for restoring the current snapshot of the plugins  |
 
 ### installed plugins
+- netrw
+It's not really a plugin, it comes with vim
+```Shell
+<leader>e
+e.g. ,e
+```
 - molokai.vim (https://github.com/tomasr/molokai)
 - paste.vim (https://github.com/enricobacis/paste.vim)
 ``` shell
