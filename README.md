@@ -39,3 +39,7 @@ Reload .vimrc and `:PlugInstall` to install plugins.
 <leader>v
 e.g. ,v
 ```
+- ctrlp.vim (https://github.com/kien/ctrlp.vim)
+``` shell
+<c-p>
+```
