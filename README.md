@@ -46,7 +46,9 @@ e.g. ,v
 e.g. ,b
 
 :h ctrlp
-
+<c-f> and <c-b> to cycle between mode
+<c-r> to switch to regexp mode
+<c-d> to switch to filename only search instead of full path
 <c-v> to open file in a vsplit
 <c-x> to open file in a split
 f5 will clear the CtrlP cache (useful if you add new files during the session)
