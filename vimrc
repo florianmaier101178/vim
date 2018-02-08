@@ -13,6 +13,7 @@ set nocompatible
 call plug#begin('~/.vim/plugged')
 Plug 'tomasr/molokai'
 Plug 'enricobacis/paste.vim'
+Plug 'kien/ctrlp.vim'
 call plug#end()
 
 " leader key
@@ -23,3 +24,16 @@ call plug#end()
 "###############################################################################
 colorscheme molokai
 
+" General settings
+"###############################################################################
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip, *.exe, *.class
+
+" CtrlP
+"###############################################################################
+" uses the wildignore setting
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+  \ 'file': '\v\.(exe|so|dll)$',
+  \ 'link': 'some_bad_symbolic_links',
+  \ }
