@@ -26,7 +26,7 @@ colorscheme molokai
 
 " General settings
 "###############################################################################
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip, *.exe, *.class
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip, *.exe, *.class, *.jar
 
 " CtrlP
 "###############################################################################
