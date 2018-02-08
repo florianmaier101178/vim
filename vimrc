@@ -31,6 +31,7 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip, *.exe, *.class
 " CtrlP
 "###############################################################################
 " uses the wildignore setting
+map <leader>b :CtrlPBuffer<cr></cr>
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/]\.(git|hg|svn)$',
