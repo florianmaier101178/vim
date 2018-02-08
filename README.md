@@ -41,5 +41,14 @@ e.g. ,v
 ```
 - ctrlp.vim (https://github.com/kien/ctrlp.vim)
 ``` shell
-<c-p>
+<c-p> to open fuzzy file search
+<leader>b to open the files in buffers
+e.g. ,b
+
+:h ctrlp
+
+<c-v> to open file in a vsplit
+<c-x> to open file in a split
+f5 will clear the CtrlP cache (useful if you add new files during the session)
 ```
+
