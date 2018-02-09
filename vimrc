@@ -14,7 +14,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'tomasr/molokai'
 Plug 'enricobacis/paste.vim'
 Plug 'kien/ctrlp.vim'
-Plug 'tpope/vim-fugitiv'
+Plug 'tpope/vim-fugitive'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 " leader key

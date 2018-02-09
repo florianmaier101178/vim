@@ -60,4 +60,5 @@ e.g. ,b
 <c-x> to open file in a split
 f5 will clear the CtrlP cache (useful if you add new files during the session)
 ```
-
+- vim-airline (https://github.com/vim-airline/vim-airline)
+- vim-fugitive (https://github.com/tpope/vim-fugitive)
