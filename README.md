@@ -62,3 +62,7 @@ f5 will clear the CtrlP cache (useful if you add new files during the session)
 ```
 - vim-airline (https://github.com/vim-airline/vim-airline)
 - vim-fugitive (https://github.com/tpope/vim-fugitive)
+```
+:GStatus shows the git status
+:Git <any command> runs any git command
+```
