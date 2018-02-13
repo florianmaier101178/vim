@@ -7,13 +7,10 @@ Vim configuration for personal use.
 cd ~
 git clone https://github.com/florianmaier101178/vim.git
 ```
-2. link your local ~/.vimrc file to ./vim/vimrc
+
+2. execute [setup script](https://github.com/florianmaier101178/vim/blob/master/setup.sh)
 ``` shell
-ln -s ~/vim/vimrc ~/.vimrc
-```
-3. link your local ~/.vim directory to ./vim/vim
-``` shell
-ln -s ~/vim/vim ~/.vim
+./setup.sh
 ```
 
 ## plugins
