@@ -33,7 +33,7 @@ Reload .vimrc and `:PlugInstall` to install plugins.
 - netrw
 It's not really a plugin, it comes with vim
 ```Shell
-<leader>e -opens netrw in current window
+<leader>e - opens netrw in current window
 e.g. ,e
 <leader>ev - opens netrw in horizontal split
 <leader>eh - opens netrw in vertical split
@@ -42,6 +42,11 @@ e.g. ,e
 :Vexplore - opens netrw in vertical split
 
 i - cycle through 4 different views
+```
+- NERDTree (https://github.com/scrooloose/nerdtree)
+```Shell
+<leader>n - opens NERDTree, it toggles
+:NERDTreeToggle
 ```
 - molokai.vim (https://github.com/tomasr/molokai)
 - paste.vim (https://github.com/enricobacis/paste.vim)

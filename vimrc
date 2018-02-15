@@ -16,6 +16,7 @@ Plug 'enricobacis/paste.vim'
 Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
+Plug 'scrooloose/nerdtree'
 call plug#end()
 
 " leader key
@@ -117,6 +118,10 @@ nnoremap <leader>eh :Sexplore<CR>
 let g:netrw_banner = 0
 "open new file in vertical split
 "let g:netrw_browse_split = 2
+
+" NERDTree
+"###############################################################################
+nnoremap <leader>n :NERDTreeToggle<CR>
 
 " CtrlP
 "###############################################################################
