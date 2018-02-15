@@ -37,12 +37,14 @@ It's not really a plugin, it comes with vim
 e.g. ,e
 <leader>ev - opens netrw in horizontal split
 <leader>eh - opens netrw in vertical split
-:Explore - opens netrw in current window
-:Sexplore - opens netrw in horizontal split
-:Vexplore - opens netrw in vertical split
-
 i - cycle through 4 different views
 ```
+| Command                             | Description                                                        |
+| ----------------------------------- | ------------------------------------------------------------------ |
+| `Explore`                           | opens netrw in current window                                      |
+| `Sexplore`                          | opens netrw in horizontal split                                    |
+| `Vexplore`                          | opens netrw in vertical split                                      |
+
 - NERDTree (https://github.com/scrooloose/nerdtree)
 ```Shell
 <leader>n - opens NERDTree, it toggles
