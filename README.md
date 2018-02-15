@@ -40,6 +40,8 @@ e.g. ,e
 :Explore - opens netrw in current window
 :Sexplore - opens netrw in horizontal split
 :Vexplore - opens netrw in vertical split
+
+i - cycle through 4 different views
 ```
 - molokai.vim (https://github.com/tomasr/molokai)
 - paste.vim (https://github.com/enricobacis/paste.vim)

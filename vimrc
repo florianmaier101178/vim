@@ -113,6 +113,10 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.exe,*.class,*.jar
 nnoremap <leader>e :e .<CR>
 nnoremap <leader>ev :Vexplore<CR>
 nnoremap <leader>eh :Sexplore<CR>
+"disable banner
+let g:netrw_banner = 0
+"open new file in vertical split
+"let g:netrw_browse_split = 2
 
 " CtrlP
 "###############################################################################
