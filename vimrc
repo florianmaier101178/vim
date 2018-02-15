@@ -111,6 +111,8 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.exe,*.class,*.jar
 " netrw
 "###############################################################################
 nnoremap <leader>e :e .<CR>
+nnoremap <leader>ev :Vexplore<CR>
+nnoremap <leader>eh :Sexplore<CR>
 
 " CtrlP
 "###############################################################################

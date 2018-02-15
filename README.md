@@ -33,8 +33,13 @@ Reload .vimrc and `:PlugInstall` to install plugins.
 - netrw
 It's not really a plugin, it comes with vim
 ```Shell
-<leader>e
+<leader>e -opens netrw in current window
 e.g. ,e
+<leader>ev - opens netrw in horizontal split
+<leader>eh - opens netrw in vertical split
+:Explore - opens netrw in current window
+:Sexplore - opens netrw in horizontal split
+:Vexplore - opens netrw in vertical split
 ```
 - molokai.vim (https://github.com/tomasr/molokai)
 - paste.vim (https://github.com/enricobacis/paste.vim)
