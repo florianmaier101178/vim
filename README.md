@@ -50,6 +50,7 @@ i - cycle through 4 different views
 <leader>n - opens NERDTree, it toggles
 :NERDTreeToggle
 ```
+- nerdtree-git-plugin (https://github.com/Xuyuanp/nerdtree-git-plugin)
 - molokai.vim (https://github.com/tomasr/molokai)
 - paste.vim (https://github.com/enricobacis/paste.vim)
 ``` shell
