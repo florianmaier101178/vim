@@ -18,6 +18,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'wellle/context.vim'
 call plug#end()
 
 " leader key
@@ -109,6 +110,10 @@ set smartcase
 nnoremap <leader><space> :nohlsearch<CR>
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.exe,*.class,*.jar
+
+" context.vim
+"###############################################################################
+let g:context_enabled = 0
 
 " netrw
 "###############################################################################
