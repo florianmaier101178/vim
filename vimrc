@@ -138,7 +138,7 @@ let g:netrw_banner = 0
 "###############################################################################
 nnoremap <leader>n :NERDTreeToggle<CR>
 
-let g:NERDTreeIndicatorMapCustom = {
+let g:NERDTreeGitStatusIndicatorMapCustom = {
     \ "Modified"  : "✹",
     \ "Staged"    : "✚",
     \ "Untracked" : "✭",
